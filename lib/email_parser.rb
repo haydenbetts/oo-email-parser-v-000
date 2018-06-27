@@ -19,7 +19,11 @@ class EmailParser
     @emails = emails
   end
 
-  def parse(emails)
+  def emails
+    @emails
+  end
+
+  def parse
     # accepts either tabs or spaces as delimiter
     binding.pry
     if emails.split(', ').length > 1
