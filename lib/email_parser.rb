@@ -26,10 +26,10 @@ class EmailParser
   def parse
     # accepts either tabs or spaces as delimiter
     binding.pry
-    if emails.split(', ').length > 1
-      return emails.split(', ').uniq
+    if self.emails.split(', ').length > 1
+      return self.emails.split(', ').uniq
     else
-      return pemails.split(' ').uniq
+      return self.emails.split(' ').uniq
     end
   end
 
