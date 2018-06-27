@@ -12,13 +12,12 @@
 
 class EmailParser
   attr_accessor :emails
-  
+
   def initialize(emails)
     @emails = emails
   end
 
   def parse
-
     return self.emails.uniq
   end
 
