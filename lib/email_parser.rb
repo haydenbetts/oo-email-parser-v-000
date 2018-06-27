@@ -19,14 +19,14 @@ class EmailParser
 
   def parse(emails)
     # accepts either tabs or spaces as delimiter
-    if emails.
+    if emails.split(',')
     return self.emails.uniq
   end
 
-  def parse_spaces
+  def parse_spaces(emails)
   end
 
-  def parse_commas
+  def parse_commas(emails)
   end
 
 end
