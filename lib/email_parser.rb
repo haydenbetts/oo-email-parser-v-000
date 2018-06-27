@@ -12,4 +12,13 @@
 
 class EmailParser
 
+  def parse
+  end
+
+  def parse_spaces
+  end
+
+  def parse_commas
+  end
+
 end
