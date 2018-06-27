@@ -14,9 +14,11 @@ class EmailParser
 
   def initialize(emails)
     @emails = emails
-  end
+  end    
 
   def parse
+
+    return 
   end
 
   def parse_spaces
