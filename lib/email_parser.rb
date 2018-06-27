@@ -19,7 +19,7 @@ class EmailParser
 
   def parse
 
-    return
+    return self.emails.uniq
   end
 
   def parse_spaces
