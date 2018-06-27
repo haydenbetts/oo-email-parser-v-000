@@ -4,5 +4,12 @@
 # or whitespace (' ').
 # The parse method should, additionally, only return unique emails.
 
+# emails = "john@doe.com, person@somewhere.org"
+# parser = EmailParser.new(emails)
+#
+# parser.parse
+# # => ["john@doe.com", "person@somewhere.org"]
+
 class EmailParser
+
 end
