@@ -21,7 +21,7 @@ class EmailParser
     # accepts either tabs or spaces as delimiter
     if emails.split(', ') > 1
       return parse_spaces(emails).uniq
-    elsif emails.split(' ') > 1
+    else
       return parse_commas(emails).uniq
     end
   end
