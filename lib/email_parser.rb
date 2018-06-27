@@ -20,16 +20,17 @@ class EmailParser
   def parse(emails)
     # accepts either tabs or spaces as delimiter
     if emails.split(', ') > 1
-      return parse_commas(emails).uniq
+      return emails.split(', ').uniq
     else
-      return parse_commas(emails).uniq
+      return pemails.split(' ').uniq
     end
   end
 
-  def parse_spaces(emails)
+  def parse_commas(emails)
+    emails.split
   end
 
-  def parse_commas(emails)
+  def parse_spaces(emails)
   end
 
 end
