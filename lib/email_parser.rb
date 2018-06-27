@@ -11,14 +11,15 @@
 # # => ["john@doe.com", "person@somewhere.org"]
 
 class EmailParser
-
+  attr_accessor :emails
+  
   def initialize(emails)
     @emails = emails
-  end    
+  end
 
   def parse
 
-    return 
+    return
   end
 
   def parse_spaces
