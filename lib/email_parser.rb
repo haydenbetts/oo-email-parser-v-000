@@ -24,12 +24,7 @@ class EmailParser
   end
 
   def parse
-    if self.emails.split(',').length > 1
-      self.emails.each do | |
-      return self.emails.split(', ').uniq
-    else
-      return self.emails.split(' ').uniq
-    end
+    self.emails.split(/[\s,]+/).uniq
   end
 
 end
