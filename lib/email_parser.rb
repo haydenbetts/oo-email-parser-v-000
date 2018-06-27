@@ -17,7 +17,9 @@ class EmailParser
     @emails = emails
   end
 
-  def parse
+  def parse(emails)
+    # accepts either tabs or spaces as delimiter
+    if emails.
     return self.emails.uniq
   end
 
